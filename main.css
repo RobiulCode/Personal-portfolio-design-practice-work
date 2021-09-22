@@ -3,36 +3,99 @@ body {
   padding: 0px;
 }
 h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #f709bb;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+}
+.text-align {
+  text-align: center;
 }
 .link-button {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  padding: 10px 20px;
+  background-image: linear-gradient(45deg, #ff008c, #ff47f0);
+  border-radius: 10px;
 }
 .header {
-}
-.name-text {
+  height: 500px;
+  width: 100%;
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .biography {
+  height: 500px;
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  margin-top: 10px;
 }
 .letest-work {
+  height: 400px;
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
 }
 .letest-work-single {
+  width: 25%;
+  padding-left: 2%;
+  margin-left: 5%;
+  float: left;
+}
+.letest-work-single img {
+  width: 100%;
 }
 .footer {
+  height: 500px;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
 }
 .client {
 }
 .founder-name {
+  font-weight: bold;
 }
 .founder-title {
+  font-size: 12px;
+  margin-top: -10px;
+  color: #919999;
 }
 .founder-msg {
 }
 .contact {
+  width: 40%;
+  background-color: #ff06de;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 2px 0px;
+  color: white;
 }
 .mail-text {
+  font-size: 12px;
 }
 .mail-address {
+  font-size: 20px;
+  font-weight: 700;
 }
 .footer-text {
+  margin-top: 100px;
+  color: #919999;
 }
