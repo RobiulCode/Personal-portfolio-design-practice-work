@@ -67,8 +67,6 @@ h3 {
   background-image: url(images/footer-bg.png);
   background-repeat: no-repeat;
 }
-.client {
-}
 .founder-name {
   font-weight: bold;
 }
@@ -76,8 +74,6 @@ h3 {
   font-size: 12px;
   margin-top: -10px;
   color: #919999;
-}
-.founder-msg {
 }
 .contact {
   width: 40%;
